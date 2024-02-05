@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>ENTREGA CODERH 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cont-nav">
+            <nav class="navbar">
+                <li><h1>BOOKLIST</h1></li>
+                
+            </nav>
+            <nav>
+                <ul>
+                    <button onclick="mostrarFavoritos()"  id="botonFavorito">MIS FAVORITOS <i class="fa-solid fa-heart" id="librosFav"><span id="spanFav"></span> </i></button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-fav">
+        <div id="cont-fav" class="cont-fav"></div>
+    </div>
+
+    <div class="cont">
+        <div id="cont-main"></div>
+    </div>
+
+    <script src="./JS/libros.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/favoritos.js"></script>
+
+</body>
+</html>

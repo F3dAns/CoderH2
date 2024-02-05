@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+*{
+    font-family: 'Nunito';
+    text-align: center;
+    list-style: none;
+    max-width: 100vw;
+
+}
+header .cont-nav{
+    text-shadow: 2px 2px 2px #353535;;
+    background-color: rebeccapurple;
+    color: #FFE8AC;
+    max-width: 100vw;
+    max-height: 50px;
+    display: flex;
+    padding: 5px 30px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px rgb(2, 2, 2);
+    font-size: large;
+    font-weight: bold;
+}
+header h1{  
+    font-family: 'Sixtyfour' ; 
+}
+header button{
+    background: #FFE8AC;
+    box-shadow: 3px 3px 5px black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+header button i{
+    margin-left: 5px; 
+}
+header button span{
+    margin-left: 5px;
+}
+/* BODY */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFE8AC;
+    color: #FFE8AC;
+
+}
+/* FAVORITOS */
+
+.cont-main-fav{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.card-fav{
+    background-color: #353535;
+    gap: 10px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+
+    max-width: 20vw auto;
+    align-items: center;
+
+}
+.card-fav img{    
+    margin: 10px;
+    max-height: 120px;
+    align-items: start;
+    width: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 3px #00000096;
+}
+.card-fav p{
+    font-size: 14px;
+    color: #FFE8AC;
+    font-weight: bold;
+    align-items: start;
+}
+.btn-cerrar-fav{
+    display: flex;
+}
+.fa-xmark{
+    background: crimson;
+    box-shadow: 3px 3px 5px black;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
+/* TARJETAS */
+
+.container-products{
+    background-color: #f3c85d9f;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 25px 5px rgba(110, 104, 104, 0.7);
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 60px;
+
+
+}
+.card-product{
+    background-color: #353535;
+    box-shadow: 5px 5px 10px 3px #00000096;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 15px;
+
+}
+.card-product img{
+    margin-top: 20px;
+    max-height: 350px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 3px #00000096;
+}
+
+.card-product h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card-product p{
+
+    text-align: start;
+    margin-left: 15%;
+}
+/* FOOTER CARDS */
+.footer-card-product{
+    display: flex;
+    justify-content: end;
+    
+    align-items: center;
+    justify-content: center;
+}
+.footer-card-product button{
+    color: #FFE8AC;
+    background: crimson;
+    box-shadow: 3px  3px 5px #00000096;
+    border: none;
+    outline: none;
+    border-radius: 40%;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
