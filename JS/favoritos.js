@@ -33,7 +33,7 @@ function guardarLocal(infoLibro) {
         actualizarLocal()
         contadorFav()
     }
-    console.log(index);
+    console.log(index)
 }
 function contadorFav() {
     spanFav.textContent = misFavoritos.length
